@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Store API</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Fake Store API</h1>
+  </header>
+  <main>
+    <!-- سيتم عرض البطاقات هنا -->
+  </main>
+  
+  <section id="add-product">
+    <h2>إضافة منتج جديد</h2>
+    <form id="product-form">
+      <label>
+        Title :
+        <input type="text" id="title" required />
+      </label>
+      <label>
+        Price :
+        <input type="number" id="price" required />
+      </label>
+      <label>
+        Description:
+        <textarea id="description" required></textarea>
+      </label>
+      <label>
+        Image :
+      <input type="url" id="image" required />
+      </label>
+      <button type="submit">إضافة المنتج</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Fake Store API Example</p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
